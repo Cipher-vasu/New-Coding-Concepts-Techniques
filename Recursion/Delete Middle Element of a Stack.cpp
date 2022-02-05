@@ -27,7 +27,7 @@ int main()
         cin >> a;
         st.push(a);
     }
-    int k = st.size() / 2 + 1;
+    int k = st.size() / 2 + (st.size() % 2 == 0 ? 0 : 1);
     remove_middle(st, k);
     while (!st.empty())
     {
