@@ -1,0 +1,20 @@
+Backtracking algorithm is applied to some specific types of problems:-
+1. Decision problem used to find a feasible solution of the problem.
+2. Optimisation problem used to find the best solution that can be applied.
+3. Enumeration problem used to find the set of all feasible solutions of the problem.
+
+General Template for BackTracking Problems:-
+
+void dfs(arguments) {
+	if (condition == true) { // Condition when we should stop our exploration.
+		result.push_back(current);
+		return;
+	}
+	for (int i = num; i <= last; i++) {
+		current.push_back(i); // Explore candidate.
+		dfs(arguments);
+		current.pop_back();   // Abandon candidate.
+	}
+}
+
+
