@@ -1,5 +1,8 @@
 /*
 https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
+In this question all the string characters are distinct. Now, question is what to do when there are duplicates to handle this we will maintain frequency map and
+reduce the frequency by 1 of the current character to be pushed to string before calling our function if the frequency of any character is zero we will iterate to next character.
+The main part is how we will backtrack so for backtracking we will increase the frequency of current character by 1. for detail check Palindrome II question on leetcode.
 */
 #include<bits/stdc++.h>
 using namespace std;
