@@ -1,0 +1,1 @@
+In set you can access first elemnet by int first_element=*st.begin();
