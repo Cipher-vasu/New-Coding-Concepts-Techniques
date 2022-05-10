@@ -1,0 +1,8 @@
+If the first condition in bitwise and is false then it will not check the second condition,
+
+Whenever you are running an while loop in an array,linked list,etc. and checkin multiple conditions in while loop make sure that first condition you check is that whether address we are pointing right now is in our scope of addresses or not otherwise runtime error will occur because of address sanitizer problem for eg
+while(coins>=costs[i] && i<costs.size())                while(i<costs.size() && coins>costs[i])
+{                                                       {
+	i++;                                            	i++;
+}                                                       }
+Now, till costs.size()-1 coins is greater so after going inside i will be incremented and point to costs.size() which is not a valid address but so when we will check the first condition of while loop coins>=costs[costs.size()] is not defined and will give runtime error. Under the same circumstances the second block will successfully execute because it is first checking whether i is pointing to valid address or not if it is not pointing it will not check the second condition.
