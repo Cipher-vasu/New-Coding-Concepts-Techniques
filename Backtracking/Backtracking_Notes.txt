@@ -17,4 +17,6 @@ void dfs(arguments) {
 	}
 }
 
+In Backtracking problems if the elements of are distinct then we can use set for solving the problem. But if there are duplicates present of some elements then we can use map and each time we add any element to our possible candidate we will decrese its frequency in map and make the function call. For more clarity refer to Permutations II problem on Leetcode.
+
 
