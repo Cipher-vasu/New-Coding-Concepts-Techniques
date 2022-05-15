@@ -14,3 +14,6 @@ A DFS is easy to implement and generally has advantage of being space-efficient,
 
 On the other hand, BFS would perform well if you don't need to search the entire depth of the tree or if the tree is skewed and there are only few branches going very deep. In worst case, the height of a tree h could be equal to n and if there are huge number of nodes, DFS would consume huge amounts of memory & may lead to stackoverflow.
 
+
+Remember when you pass size() function in some in-built function and the error comes in-built function doesn't exist then stroe the value of size() in desired variable and then call the in-built function it will work.
+
