@@ -17,3 +17,5 @@ On the other hand, BFS would perform well if you don't need to search the entire
 
 Remember when you pass size() function in some in-built function and the error comes in-built function doesn't exist then stroe the value of size() in desired variable and then call the in-built function it will work.
 
+Make it a thumb rule that if for every iteration for index answer is computed by index-1 and index-2 then there can be space optimization. 
+
