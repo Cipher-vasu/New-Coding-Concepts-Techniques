@@ -21,4 +21,6 @@ In Backtracking problems if the elements of are distinct then we can use set for
 
 In some problems for backtracking index is very important because we backtrack according to indexes. Refer Combinations problem on Leetcode.
 
+In Bactracking you can pass parameters in which you are perfoming action by copy or reference but in recursion always prefer to pass parameter as a copy.
+
 
