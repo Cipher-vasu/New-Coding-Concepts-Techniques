@@ -1,0 +1,1 @@
+We can try to solve the problem greedily only when there is a uniformity in the values and if there is no uniformity in the values then DP is the best approach (Striver's DP - Minimum Path Sum 4:45 - 5:15)
