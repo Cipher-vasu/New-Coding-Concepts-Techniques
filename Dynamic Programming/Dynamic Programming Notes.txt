@@ -1,3 +1,5 @@
 The Tabulation is exact opposite of recursion if in recursion we are going from 0 to n then in tabulation we will go from n to 0 and vice-versa.
 
 Prefer starting recurrence from a fixed point if it is available like in unique paths both starting and ending points are fixed but in triangle starting point is fixed but ending point can vary. 
+
+Remember it into your when declaring dp for memoization initialise it with -1 and when you are declaring dp for tabulation then initialise with 0.
