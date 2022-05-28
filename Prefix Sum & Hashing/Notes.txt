@@ -1,1 +1,3 @@
 In set you can access first elemnet by int first_element=*st.begin();
+
+If in the question we have to change the matrix in-place the first thing we should do is check the range of matrix element and the cells which we have to change we can mark them by some out of the given range and do the required operations later on them. (Set Matrix Zeroes Brute Approach)

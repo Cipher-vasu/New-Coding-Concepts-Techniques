@@ -3,3 +3,7 @@ The Tabulation is exact opposite of recursion if in recursion we are going from 
 Prefer starting recurrence from a fixed point if it is available like in unique paths both starting and ending points are fixed but in triangle starting point is fixed but ending point can vary. 
 
 Remember it into your when declaring dp for memoization initialise it with -1 and when you are declaring dp for tabulation then initialise with 0.
+
+Whenever there is infinite supplies/Multiple use of elements then while taking the element do not change the index.Refer DP20 Minimum Coins 11-13min
+
+Generally what happens that Tabulation performs better than Memoization but in some question it may happen that in Memoization all the states will not be explored whereas in Tabulation all the states will be explored.(Eg question Coin Change 2)
