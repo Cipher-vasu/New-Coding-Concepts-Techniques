@@ -19,3 +19,5 @@ Remember when you pass size() function in some in-built function and the error c
 
 Make it a thumb rule that if for every iteration for index answer is computed by index-1 and index-2 then there can be space optimization. 
 
+n length string has 2 to the power n subsequences including empty subsequence.
+
