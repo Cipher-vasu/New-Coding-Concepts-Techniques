@@ -21,3 +21,7 @@ Make it a thumb rule that if for every iteration for index answer is computed by
 
 n length string has 2 to the power n subsequences including empty subsequence.
 
+If problem is looking like it can be solved through dp first check first if greedy approach can solve the problem or not.
+
+Remember one thing that whenever you are comparing current element with previous or next element in if,for or while make sure first you check that previous or next index is not out of bound.
+
