@@ -49,7 +49,7 @@ Node* Swap_2_nodes(Node *head, int k)
     }
 
     // If either of the nodes is not present in the list then we cannot swap
-    if (prev_first == NULL || prev_second == NULL)
+    if (first == NULL || second == NULL)
     {
         return head;
     }
