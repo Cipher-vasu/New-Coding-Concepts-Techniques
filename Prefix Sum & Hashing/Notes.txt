@@ -3,3 +3,5 @@ In set you can access first elemnet by int first_element=*st.begin();
 If in the question we have to change the matrix in-place the first thing we should do is check the range of matrix element and the cells which we have to change we can mark them by some out of the given range and do the required operations later on them. (Set Matrix Zeroes Brute Approach)
 
 If you are using maps to store frequencies of digits(0-9) or characters(a-b or A-B) the it is better runtime it is better to use vector in some question so do according to the question. for better understanding of this point see the runtime of both the solutions of Bulls and Cows problem in Leetcode.
+
+When the question requires computation of prefix and suffix array try to observe the relation so that we can do the question in O(1) space for reference see (Product of Array Itself and prefix&suffix example code).
