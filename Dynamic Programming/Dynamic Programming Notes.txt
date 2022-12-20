@@ -7,3 +7,5 @@ Remember it into your when declaring dp for memoization initialise it with -1 an
 Whenever there is infinite supplies/Multiple use of elements then while taking the element do not change the index.Refer DP20 Minimum Coins 11-13min
 
 Generally what happens that Tabulation performs better than Memoization but in some question it may happen that in Memoization all the states will not be explored whereas in Tabulation all the states will be explored.(Eg question Coin Change 2)
+
+When you cannot use vectors for dp due to memory limitation try to do it using maps(Integer Replacement leetcode)

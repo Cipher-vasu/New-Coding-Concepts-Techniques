@@ -1,0 +1,5 @@
+Note that in BFS, all cells having the shortest path as 1 are visited first, followed by their adjacent cells having the shortest path as 1 + 1 = 2 and so on… so if we reach any node in BFS, its shortest path = shortest path of parent + 1. So, the destination cell’s first occurrence gives us the result, and we can stop our search there. The shortest path cannot exist from some other cell for which we haven’t reached the given node yet. If any such path were possible, we would have already explored it.
+
+We know that the Breadth–first search (BFS) can be used to find the shortest path in an unweighted graph or even in a weighted graph having the same cost of all its edges.
+
+Dijkstra’s Algorithm is based on the principle of relaxation, in which more accurate values gradually replace an approximation to the correct distance until the shortest distance is reached. 

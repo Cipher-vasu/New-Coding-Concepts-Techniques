@@ -25,3 +25,5 @@ If problem is looking like it can be solved through dp first check first if gree
 
 Remember one thing that whenever you are comparing current element with previous or next element in if,for or while make sure first you check that previous or next index is not out of bound.
 
+I changed all the values to long long otherwise it will throw runtime error , always remember if you think answer / calculation is out of range of INT then change it to long long by multiplying with 1LL. (Due to this I got 1 penalty)
+
